@@ -1,0 +1,70 @@
+/*-----------------------------
+    1. Project default css
+-------------------------------*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-light-color: #fff;
+  --secondary-light-color: #f1f1f1;
+  --primary-gray-color: #595959;
+  --secondary-gray-color: #707A82;
+  --primary-blue-color: #0285DA;
+  --primary-dark-color: #111c2d;
+  --bg-color: #F6F9FB;
+  --dark-color: #111C2D;
+  --border-color: #ddd;
+  --hover-background-color: #E9F2FC;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+}
+
+button,
+a {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    border: none;
+    outline: none;
+}
+
+button:disabled {
+    cursor: default;
+}
